@@ -1,0 +1,93 @@
+body{
+    background:url(../photo_2023-10-13_22-16-50.jpg);
+}
+body .box{
+    position: relative;
+    left: 33%;
+    top: 250px;
+    box-shadow: 3px 4px 6px 2px #131b115c;
+    width: fit-content;
+}
+body .box-1{
+    width: 380px;
+    background: black;
+    height: 65px;
+}
+body .box-2{
+    width: 380px;
+    background: white;
+    color: white;
+    height: 65px;
+}
+body .box-2::before{
+    content: '';
+    position: absolute;
+    border-width: 97px;
+    border-style: solid;
+    left: 0px;
+    border-color: transparent transparent transparent red;
+    bottom: 0;
+}
+body .box-3{
+    width: 380px;
+    background:green;
+    color: green;
+    height: 65px;
+}
+body .text{
+    position: absolute;
+    right: 23%;
+    bottom: -10%;
+    text-align: center;
+}
+body .text .or1{
+    
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+body .text .or2{
+    position: relative;
+    bottom: 23px;
+    color: green;
+}
+body .text .or3{
+    position: relative;
+    bottom: 13px;
+}
+.code{
+    position: absolute;
+    right: 20px;
+    bottom: 4px;
+    color: #000000;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 6px 5px #131b115c;
+    background-color: #f4f4f4c2;
+    padding: 7px;
+    border-radius: 25px;
+}
+.code h2{
+    font-size: 20px; 
+}
+.code h3{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
