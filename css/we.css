@@ -204,6 +204,8 @@ nav .nav-2 .up .kind{
     top: 13px;
     padding-right: 20px;
     box-shadow: inset 0px 0px 0px 1px #ffffff29;
+    border-radius: 8px;
+    margin: 3px;
 }
 nav .nav-2 .up .kind a{
     color: var(--th-color);
@@ -238,6 +240,9 @@ nav .nav-2 .down a{
     }
 }
 @media (max-width : 950px){
+    nav .nav-2{
+        height: 60px;
+    }
     nav .nav-2 .menue{
 
         width: fit-content;
@@ -249,6 +254,7 @@ nav .nav-2 .down a{
     }
     nav .nav-2 .menue:hover + div{
         display: flex;
+        z-index: 5;
     }
     nav .nav-2 .up{
         display: none;
@@ -264,7 +270,7 @@ nav .nav-2 .down a{
         box-shadow: inset -1px -1px 0px 1px #ffffff29;
     }
     nav .nav-2 .down{
-        padding-top: 50px;
+       bottom: 6px;
     }
 
 }
@@ -311,6 +317,27 @@ nav .nav-2 .down a{
     font-style: oblique;
     color: black;
     text-decoration: underline;
+}
+@media (max-width : 1100px){
+    .article img{
+        width: 700px;
+        height: 600px;
+    }
+
+}
+@media (max-width : 750px){
+    .article img{
+        width: 500px;
+        height: 600px;
+    }
+
+}
+@media (max-width : 550px){
+    .article img{
+        width: 320px;
+        height: 310px;  
+    }
+
 }
 /*.contact***************/
 .contact .box{
